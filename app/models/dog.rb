@@ -1,4 +1,4 @@
-class Dog < ActiveRecord::Base
+class Dog
   attr_accessor :name, :breed, :age
 
   @@all = []
@@ -9,8 +9,6 @@ class Dog < ActiveRecord::Base
     @age = age
     @@all << self
   end
-
-  def
 
 
 end
